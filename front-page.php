@@ -64,6 +64,7 @@
       <div class="full-width-split__inner">
         <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
         <?php 
+
           $homePagePosts = new WP_Query(array(
             'posts_per_page' => 2
           ));
@@ -89,8 +90,11 @@
         ?>
         <p class="t-center no-margin"><a href="<?php echo site_url('/blog'); ?>" class="btn btn--yellow">View All Blog Posts</a></p>
       </div>
+
+
     </div>
   </div>
+</div>
 
   <div class="hero-slider">
   <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri() . '/images/bus.jpg'; ?>);">
