@@ -2,9 +2,9 @@
         <div class="page-banner">
             <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg'); ?>);"></div>
                 <div class="page-banner__content container container--narrow">
-                <h1 class="page-banner__title">All Events</h1>
+                <h1 class="page-banner__title">Past Events</h1>
                 <div class="page-banner__intro">
-                    <p>See whats going on in our world.</p>
+                    <p>See our past events.</p>
                 </div>
             </div>  
         </div>
