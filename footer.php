@@ -49,6 +49,7 @@
 
     </div>
 </footer>
+<script type="text/javascript" src="<?php echo get_theme_file_uri() ?>/js/sripts.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
